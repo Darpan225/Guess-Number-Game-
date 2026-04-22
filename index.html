@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess The Number</title>
+    <link rel="icon" type="image/x-icon" href="icons-game-controller.png">
+</head>
+<body>
+    <div class="GTN">
+<!-- ----------- ------- Start of Head Section ---------- ---- -->
+        <div class="head_sec">        
+                
+                <button class="again_btn">Again!</button>
+           
+
+            <div class="between_num">
+
+                <p>  &lt; Between 1 to 20 &gt; </p>
+
+            </div>
+
+        </div>
+
+<!-- ----------- ------- Start of Mid Section ---------- ---- -->
+
+    <div class="mid_sec">
+
+        <div class="guess_num">
+
+            <p>Guess My Number!</p>
+
+        </div>
+
+        <div class="exact_num act_name">
+            
+           <p>?</p>
+        </div>
+
+    </div>
+
+<!-- ----------- ------- Start of Lower Section ---------- ---- -->
+
+
+    <div class="lower_sec">
+
+        <div class="left_lowsec">
+
+            <div class="num_sec">
+
+                <label for="number"></label>
+                <input type="number" id="number" name="number">
+
+            </div>
+
+            <div class="check_btn">
+                <button id="checkbtn">Check!</button>
+            </div>
+
+        </div>
+
+        <div class="right_lowsec">
+
+            <div class="lUpper_sec">
+
+                <p id="msg1"> Start guessing....  </p>
+
+            </div>
+
+            <div class="lLower_sec">
+
+                <div class="score">
+                    <p>💯 Score: </p>
+                    <p id="scr_num"> 20 </p>
+                </div>
+                
+                <div class="hg_sco">
+
+                    <p>🎖️ High Score: </p>
+                    <p id="high_scr"> 0</p>
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+        
+
+    </div>
+
+
+
+<script src="script.js"></script>
+    </div>
+    
+</body>
+</html>
