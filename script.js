@@ -29,7 +29,9 @@ if(ext_num === numbr){
 
    document.querySelector("#msg1").textContent = " Bingo!!! You Guessed It Right 🏆🏆 ";
     
-   document.querySelector(".exact_num").style .backgroundColor = "#B1FF8A";
+   document.querySelector(".exact_num").style .backgroundColor = "#ffffff";
+   document.querySelector("body").style .backgroundColor = "#4cdb05";
+
 
 }
 
